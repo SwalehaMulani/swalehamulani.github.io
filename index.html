@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Swaleha Mulani · Theoretical Physics</title>
+  <meta name="description" content="Swaleha Mulani — theoretical physicist working on high-energy QCD, gluon saturation, the Color Glass Condensate and hadron structure at the University of Jyväskylä.">
+  <meta name="author" content="Swaleha Mulani">
+
+  <meta property="og:title" content="Swaleha Mulani · Theoretical Physics">
+  <meta property="og:description" content="High-energy QCD, small-x physics and the Color Glass Condensate.">
+  <meta property="og:type" content="website">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+
+  <script>
+    // Apply saved theme before paint to avoid a flash
+    try {
+      var t = localStorage.getItem("theme");
+      if (t) document.documentElement.setAttribute("data-theme", t);
+    } catch (e) {}
+  </script>
+</head>
+<body>
+
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="#top">S. Mulani</a>
+      <nav class="nav-links" aria-label="Sections">
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#talks">Talks</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode">
+        <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ Hero ============ -->
+    <section class="hero">
+      <canvas class="hero-canvas" id="hero-canvas" aria-hidden="true"></canvas>
+      <div class="hero-inner">
+        <h1>Swaleha Mulani</h1>
+        <p class="role"><span>Postdoctoral Researcher</span><span class="sep"> · </span><span>University of Jyväskylä, Finland</span></p>
+        <p class="tagline">
+          I study what happens when hadrons and nuclei are probed at very high energies.
+        </p>
+        <div class="links">
+          <a class="btn btn-primary" href="mailto:swaleha.n.mulani@jyu.fi">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6.5 8.5 6.5 8.5-6.5"/></svg>
+            Email
+          </a>
+          <a class="btn" href="https://inspirehep.net/authors/2854479?ui-citation-summary=true" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19.5V5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2Zm0 0A2 2 0 0 0 6 21h13"/></svg>
+            INSPIRE-HEP
+          </a>
+          <a class="btn" href="https://in.linkedin.com/in/swaleha-mulani-49a761272" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6Z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            LinkedIn
+          </a>
+          <a class="btn" href="https://github.com/SwalehaMulani" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Research ============ -->
+    <section class="section" id="research">
+      <h2 class="section-label">Research Interests</h2>
+      <div class="section-body">
+        <ul class="tags" aria-label="Research interests">
+          <li>Color Glass Condensate</li>
+          <li>Small-<i>x</i> physics</li>
+          <li>Gluon saturation</li>
+          <li>Perturbative QCD</li>
+          <li>Hadron structure</li>
+          <li>TMDs</li>
+          <li>PDFs</li>
+          <li>GPDs</li>
+          <li>Electron–Ion Collider</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ Publications ============ -->
+    <section class="section" id="publications">
+      <h2 class="section-label">Publications</h2>
+      <div class="section-body">
+        <h3 class="subhead">Journal articles &amp; preprints</h3>
+        <ol class="pubs">
+          <li class="pub">
+            <a class="pub-title" href="https://arxiv.org/abs/2609.15461" target="_blank" rel="noopener">Probing gluon saturation through inclusive hadron production in DIS</a>
+            <p class="pub-authors">C. Casuga, <b>S. Mulani</b>, H. Mäntysaari</p>
+            <p class="pub-meta">
+              <span class="pub-venue">Preprint</span>
+              <a href="https://arxiv.org/abs/2609.15461" target="_blank" rel="noopener">arXiv:2609.15461</a>
+            </p>
+          </li>
+          <li class="pub">
+            <a class="pub-title" href="https://doi.org/10.1103/fpy6-9s8c" target="_blank" rel="noopener">Dijet production in DIS off a large nucleus at next-to-eikonal accuracy in a Gaussian model within the CGC framework</a>
+            <p class="pub-authors">P. Agostini, T. Altinoluk, N. Armesto, G. Beuf, F. Cougoulic, <b>S. Mulani</b></p>
+            <p class="pub-meta">
+              <a href="https://doi.org/10.1103/fpy6-9s8c" target="_blank" rel="noopener">DOI</a>
+              <a href="https://arxiv.org/abs/2512.17848" target="_blank" rel="noopener">arXiv:2512.17848</a>
+            </p>
+          </li>
+          <li class="pub">
+            <a class="pub-title" href="https://doi.org/10.1103/15qz-1krh" target="_blank" rel="noopener">Parton model contributions as next-to-eikonal corrections to the dipole factorization of DIS and SIDIS at low <i>x</i><sub>Bj</sub></a>
+            <p class="pub-authors">T. Altinoluk, G. Beuf, <b>S. Mulani</b></p>
+            <p class="pub-meta">
+              <a href="https://doi.org/10.1103/15qz-1krh" target="_blank" rel="noopener">DOI</a>
+              <a href="https://arxiv.org/abs/2510.13571" target="_blank" rel="noopener">arXiv:2510.13571</a>
+            </p>
+          </li>
+          <li class="pub">
+            <a class="pub-title" href="https://doi.org/10.1007/JHEP06(2025)097" target="_blank" rel="noopener">Quark TMDs from back-to-back dijet production at forward rapidities in pA collisions beyond eikonal accuracy in the CGC</a>
+            <p class="pub-authors">T. Altinoluk, G. Beuf, E. Blanco, <b>S. Mulani</b></p>
+            <p class="pub-meta">
+              <span class="pub-venue">JHEP 06 (2025) 097</span>
+              <a href="https://doi.org/10.1007/JHEP06(2025)097" target="_blank" rel="noopener">DOI</a>
+              <a href="https://arxiv.org/abs/2412.08485" target="_blank" rel="noopener">arXiv:2412.08485</a>
+            </p>
+          </li>
+          <li class="pub">
+            <a class="pub-title" href="https://doi.org/10.1103/PhysRevD.111.034028" target="_blank" rel="noopener">Forward parton–nucleus scattering at next-to-eikonal accuracy in the CGC</a>
+            <p class="pub-authors">T. Altinoluk, G. Beuf, <b>S. Mulani</b></p>
+            <p class="pub-meta">
+              <span class="pub-venue">Phys. Rev. D 111, 034028 (2025)</span>
+              <a href="https://doi.org/10.1103/PhysRevD.111.034028" target="_blank" rel="noopener">DOI</a>
+              <a href="https://arxiv.org/abs/2411.15047" target="_blank" rel="noopener">arXiv:2411.15047</a>
+            </p>
+          </li>
+        </ol>
+
+        <h3 class="subhead">Conference proceedings</h3>
+        <ol class="pubs">
+          <li class="pub">
+            <a class="pub-title" href="https://arxiv.org/abs/2609.37050" target="_blank" rel="noopener">Constraining the dipole amplitude at NLO with HERA data and probing gluon saturation in SIDIS</a>
+            <p class="pub-authors">C. Casuga, <b>S. Mulani</b>, H. Mäntysaari</p>
+            <p class="pub-meta">
+              <span class="pub-venue">DIS 2025 proceedings</span>
+              <a href="https://arxiv.org/abs/2609.37050" target="_blank" rel="noopener">arXiv:2609.37050</a>
+            </p>
+          </li>
+          <li class="pub">
+            <a class="pub-title" href="https://doi.org/10.5506/APhysPolBSupp.16.7-A26" target="_blank" rel="noopener">Gluon propagator in background field at next-to-eikonal order</a>
+            <p class="pub-authors">T. Altinoluk, G. Beuf, <b>S. Mulani</b></p>
+            <p class="pub-meta">
+              <span class="pub-venue">Acta Phys. Polon. Supp. 16, 7-A26 (2023)</span>
+              <a href="https://doi.org/10.5506/APhysPolBSupp.16.7-A26" target="_blank" rel="noopener">DOI</a>
+            </p>
+          </li>
+          <li class="pub">
+            <a class="pub-title" href="https://doi.org/10.22323/1.469.0077" target="_blank" rel="noopener">SIDIS and inclusive DIS beyond eikonal order</a>
+            <p class="pub-authors">T. Altinoluk, G. Beuf, <b>S. Mulani</b></p>
+            <p class="pub-meta">
+              <span class="pub-venue">PoS (DIS2023)</span>
+              <a href="https://doi.org/10.22323/1.469.0077" target="_blank" rel="noopener">DOI</a>
+            </p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ Talks ============ -->
+    <section class="section" id="talks">
+      <h2 class="section-label">Talks</h2>
+      <div class="section-body">
+        <ul class="timeline">
+          <li>
+            <span class="when">May 2026</span>
+            <div>
+              <p class="talk-title">Confronting CGC at NLO with HERA structure function data and probing gluon saturation through semi-inclusive hadron production at the EIC</p>
+              <p class="talk-event">DIS2026 — 33rd International Workshop on Deep Inelastic Scattering · Bologna, Italy</p>
+            </div>
+          </li>
+          <li>
+            <span class="when">Mar 2026</span>
+            <div>
+              <p class="talk-title">Quark TMDs from back-to-back dijets in pA collisions</p>
+              <p class="talk-event">Bridging TMD Frameworks: Intersections, Tensions, and Applications · ECT*, Trento, Italy</p>
+            </div>
+          </li>
+          <li>
+            <span class="when">Aug 2025</span>
+            <div>
+              <p class="talk-title">DIS dijet production at next-to-eikonal order</p>
+              <p class="talk-event">High Energy QCD: from the LHC to the EIC · Benasque Science Center, Spain</p>
+            </div>
+          </li>
+          <li>
+            <span class="when">May 2024</span>
+            <div>
+              <p class="talk-title">SIDIS and inclusive DIS: beyond eikonal order</p>
+              <p class="talk-event">Beyond Eikonal Methods in High Energy Scattering · ECT*, Trento, Italy</p>
+            </div>
+          </li>
+          <li>
+            <span class="when">Apr 2024</span>
+            <div>
+              <p class="talk-title"><i>t</i>-channel quark exchange in SIDIS and inclusive DIS at small-<i>x</i> beyond the eikonal approximation</p>
+              <p class="talk-event">DIS 2024 — 31st International Workshop on Deep Inelastic Scattering · Grenoble, France</p>
+            </div>
+          </li>
+          <li>
+            <span class="when">Jul 2023</span>
+            <div>
+              <p class="talk-title">Semi-inclusive DIS at next-to-eikonal order</p>
+              <p class="talk-event">Electron-Ion Collider User Group Meeting (EICUG 2023) · University of Warsaw, Poland</p>
+            </div>
+          </li>
+          <li>
+            <span class="when">Jul 2023</span>
+            <div>
+              <p class="talk-title">Propagators in background field at next-to-eikonal order</p>
+              <p class="talk-event">EICUG 2023 Early Career Workshop · University of Warsaw, Poland</p>
+            </div>
+          </li>
+          <li>
+            <span class="when">May 2023</span>
+            <div>
+              <p class="talk-title">Propagators in background field at next-to-eikonal order</p>
+              <p class="talk-event">Color Glass Condensate at the Electron-Ion Collider · ECT*, Trento, Italy</p>
+            </div>
+          </li>
+          <li>
+            <span class="when">Mar 2023</span>
+            <div>
+              <p class="talk-title">Gluon propagator in background field at next-to-eikonal order</p>
+              <p class="talk-event">School on Frontiers in Nuclear and Hadronic Physics 2023 · GGI, Florence, Italy</p>
+            </div>
+          </li>
+          <li>
+            <span class="when">Jan 2023</span>
+            <div>
+              <p class="talk-title">Gluon propagator in background field at next-to-eikonal order</p>
+              <p class="talk-event">Epiphany 2023: Physics at the EIC and Future Facilities · IFJ PAN, Kraków, Poland</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ Education ============ -->
+    <section class="section" id="education">
+      <h2 class="section-label">Education</h2>
+      <div class="section-body">
+        <ul class="entries">
+          <li class="entry">
+            <div class="entry-head">
+              <h3>PhD in Physics</h3>
+              <span class="when">2021 – 2025</span>
+            </div>
+            <p class="entry-place">National Centre for Nuclear Research (NCBJ), Warsaw, Poland</p>
+            <p class="entry-note">With distinction · Supervisors: Dr hab. Tolga Altinoluk, Dr Guillaume Beuf<br>Beyond-eikonal corrections, small-<i>x</i> physics and the CGC</p>
+          </li>
+          <li class="entry">
+            <div class="entry-head">
+              <h3>MSc in Physics</h3>
+              <span class="when">2018 – 2020</span>
+            </div>
+            <p class="entry-place">Savitribai Phule Pune University, Pune, India</p>
+            <p class="entry-note">Specialization in advanced quantum mechanics<br>Thesis: Tight-binding approximation and topological insulators</p>
+          </li>
+          <li class="entry">
+            <div class="entry-head">
+              <h3>BSc in Physics</h3>
+              <span class="when">2015 – 2018</span>
+            </div>
+            <p class="entry-place">Fergusson College, Pune, India</p>
+            <p class="entry-note">First class with distinction<br>Thesis: Synthesis of nanoparticles and study of their anti-corrosive properties</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ Honours ============ -->
+    <section class="section" id="honours">
+      <h2 class="section-label">Honours</h2>
+      <div class="section-body">
+        <ul class="entries compact">
+          <li class="entry">
+            <div class="entry-head">
+              <h3>NAWA STER Scholarship</h3>
+              <span class="when">2022 – 2024</span>
+            </div>
+            <p class="entry-note">NCBJ Graduate School, awarded to outstanding international doctoral students</p>
+          </li>
+          <li class="entry">
+            <div class="entry-head">
+              <h3>STER-funded research visit</h3>
+              <span class="when">Jun – Jul 2024</span>
+            </div>
+            <p class="entry-note">Hosted by Prof. Néstor Armesto, IGFAE, University of Santiago de Compostela, Spain</p>
+          </li>
+          <li class="entry">
+            <div class="entry-head">
+              <h3>INSPIRE Scholarship</h3>
+              <span class="when">2015 – 2020</span>
+            </div>
+            <p class="entry-note">Department of Science and Technology, India, for the top 1% of students nationwide pursuing basic sciences</p>
+          </li>
+          <li class="entry">
+            <div class="entry-head">
+              <h3>MH-SET qualified</h3>
+            </div>
+            <p class="entry-note">UGC-accredited eligibility for appointment as Assistant Professor</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ Schools ============ -->
+    <section class="section" id="schools">
+      <h2 class="section-label">Schools</h2>
+      <div class="section-body">
+        <ul class="plain-list">
+          <li><span>School on Frontiers in Nuclear and Hadronic Physics, GGI, Florence</span><span class="when">2023</span></li>
+          <li><span>CFNS Summer School on the Physics of the Electron-Ion Collider, Stony Brook (online)</span><span class="when">2022</span></li>
+          <li><span>GDR-QCD Summer School: Heavy-ion collisions in the QCD phase diagram, Subatech, Nantes</span><span class="when">2022</span></li>
+          <li><span>Lecture Series on QCD for EIC (online)</span><span class="when">2022</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ Skills ============ -->
+    <section class="section" id="skills">
+      <h2 class="section-label">Toolkit</h2>
+      <div class="section-body">
+        <dl class="skills">
+          <dt>Programming</dt><dd>Python, Fortran 90, C, Mathematica</dd>
+          <dt>Software</dt><dd>LaTeX, JaxoDraw, Origin, ELK (DFT), HPC clusters</dd>
+          <dt>Languages</dt><dd>English, Hindi, Marathi</dd>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ============ Contact ============ -->
+    <section class="section" id="contact">
+      <h2 class="section-label">Contact</h2>
+      <div class="section-body">
+        <div class="contact">
+          <p>I'm always happy to talk about physics, collaborations or visits. Email is the best way to reach me.</p>
+          <a class="contact-email" href="mailto:swaleha.n.mulani@jyu.fi">swaleha.n.mulani@jyu.fi</a>
+          <p class="contact-address">University of Jyväskylä<br>Jyväskylä, Finland</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year">2026</span> Swaleha Mulani</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
